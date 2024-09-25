@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+input[type="text"] {
+    border: 2px solid #e91e63; /* Pink border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #795548; /* Brown background */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a0522d; /* Lighter brown on hover */
+}
+
+#task-list {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    background-color: white; /* White background for task items */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and task name */
+}
+
+.task {
+    flex-grow: 1; /* Allow task name to grow and take space */
+}
+
+.delete-btn {
+    background-color: #e91e63; /* Pink for delete button */
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #ff4081; /* Lighter pink on hover */
+}
